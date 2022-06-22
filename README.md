@@ -5,38 +5,55 @@
 ### 1.1 Primitive
 
 #### 1.1.1 Oblivious Transfer (OT)
-
-- More Efficient Oblivious Transfer and Extensions for Faster Secure Computation. [paper](https://eprint.iacr.org/2013/552.pdf), [slide](https://www.cs.cornell.edu/~asharov/slides/ALSZ13.pdf). 
+- [Precomputing Oblivious Transfer, CRYPTO'95](https://link.springer.com/content/pdf/10.1007%2F3-540-44750-4_8.pdf)
+- [Efficient Oblivious Transfer Protocols, SODA'01](https://dl.acm.org/doi/10.5555/365411.365502)
+- IKNP03: [Extending Oblivious Transfers Efficiently, CRYPTO'03](http://link.springer.com/10.1007/978-3-540-45146-4_9)
+- ALSZ13: [More Efficient Oblivious Transfer and Extensions for Faster Secure Computation, CCS'13](https://eprint.iacr.org/2013/552.pdf), [slide](https://www.cs.cornell.edu/~asharov/slides/ALSZ13.pdf)
+- KK13: [Improved OT Extension for Transferring Short Secrets, CRYPTO'13](https://eprint.iacr.org/2013/491.pdf)
+- KOS15: [Actively Secure OT Extension with Optimal Overhead, CRYPTO'15](https://eprint.iacr.org/2015/546.pdf)
+- [MASCOT: Faster Malicious Arithmetic Secure Computation with Oblivious Transfer, CCS'16](https://eprint.iacr.org/2016/505.pdf)
+- [Fast Actively Secure OT Extension for Short Secrets, NDSS'17](http://arxiv.org/abs/1911.08834), [slide](https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_04B-1-suresh-slides.pdf), [video](https://youtu.be/urV3ljX-DqQ)
+- [Efficient Pseudorandom Correlation Generators: Silent OT Extension and More, CRYPTO'19](https://eprint.iacr.org/2019/448.pdf)
+- [Efficient two-round OT extension and silent non-interactive secure computation, CCS'19](https://eprint.iacr.org/2019/1159.pdf)
+- [Ferret: Fast Extension for Correlated OT with Small Communication, CCS'20](https://eprint.iacr.org/2020/924.pdf)
+- [Silver: Silent VOLE and Oblivious Transfer from Hardness of Decoding Structured LDPC Codes, CRYPTO'21](https://eprint.iacr.org/2021/1150.pdf)
 
 #### 1.1.2 Garbled Circuit
 
-1. [Protocols for Secure Computations (Extended Abstract)]( https://crysp.uwaterloo.ca/courses/pet/F11/cache/www.cs.wisc.edu/areas/sec/yao1982-ocr.pdf)
-2. [Improved Garbled Circuit: Free XOR Gates and Applications](http://www.cs.toronto.edu/~vlad/papers/XOR_ICALP08.pdf)
-3. [FairplayMP – A System for Secure Multi-Party Computation](https://www.cs.huji.ac.il/~noam/FairplayMP.pdf)
-4. [Two Halves Make a Whole Reducing Data Transfer in Garbled Circuits using Half Gates](https://eprint.iacr.org/2014/756.pdf)
-5. [Fast and Secure Three-party Computation: The Garbled Circuit Approach](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/43888.pdf)
+- [Protocols for Secure Computations (Extended Abstract), STOC'82]( https://crysp.uwaterloo.ca/courses/pet/F11/cache/www.cs.wisc.edu/areas/sec/yao1982-ocr.pdf)
+- [Improved Garbled Circuit: Free XOR Gates and Applications, ICALP'08](http://www.cs.toronto.edu/~vlad/papers/XOR_ICALP08.pdf)
+- [FairplayMP – A System for Secure Multi-Party Computation, CCS'08](https://www.cs.huji.ac.il/~noam/FairplayMP.pdf)
+- [Secure Two-Party Computation Is Practical, ASIACRYPT'09](https://eprint.iacr.org/2009/314.pdf)
+- [Foundations of Garbled Circuits, CCS'12](https://eprint.iacr.org/2012/265.pdf)
+- [FleXOR: Flexible Garbling for XOR Gates That Beats Free-XOR, CRYPTO'14](https://eprint.iacr.org/2014/460.pdf)
+- [Two Halves Make a Whole: Reducing Data Transfer in Garbled Circuits using Half Gates, EUROCRYPT'15](https://eprint.iacr.org/2014/756.pdf)
+- MRZ15: [Fast and Secure Three-party Computation: The Garbled Circuit Approach, CCS'15](https://eprint.iacr.org/2015/931.pdf)
+- [Three Halves Make a Whole? Beating the Half-Gates Lower Bound for Garbled Circuits, CRYPTO'21](https://eprint.iacr.org/2021/749.pdf)
 
-#### 1.1.3 Arithmetic Circuit
+#### 1.1.3  Arithmetic/Boolean Circuit
 
-1. [Multiparty Computation from Somewhat Homomorphic Encryption](https://eprint.iacr.org/2011/535.pdf)
-2. [Practical Covertly Secure MPC for Dishonest Majority Or: Breaking the SPDZ Limits](https://eprint.iacr.org/2012/642.pdf) 
-3. [SPDZ2k: Efficient MPC mod 2k for Dishonest Majority](https://eprint.iacr.org/2018/482.pdf)
+- [GMW: How to play ANY mental game, STOC'87](https://www.researchgate.net/publication/234778924_How_to_play_ANY_mental_game/link/0deec5232112523fc5000000/download)
+- [Multiparty Computation from Somewhat Homomorphic Encryption](https://eprint.iacr.org/2011/535.pdf)
+- [Practical Covertly Secure MPC for Dishonest Majority Or: Breaking the SPDZ Limits](https://eprint.iacr.org/2012/642.pdf) 
+- [SPDZ2k: Efficient MPC mod 2k for Dishonest Majority](https://eprint.iacr.org/2018/482.pdf)
 
-#### 1.1.4 Boolean Circuit
+#### 1.1.5 A/B/Y Shares Conversion
 
-1. [How to play any mental game or a completeness theorem for protocols with honest majority (PDF) How to play ANY mental game](https://www.researchgate.net/publication/234778924_How_to_play_ANY_mental_game/link/0deec5232112523fc5000000/download)
-
-#### 1.1.5 Protocol
-
-1. [ABY – A Framework for Effificient Mixed-Protocol Secure Two-Party Computation, NDSS'15](https://encrypto.de/papers/DSZ15.pdf)
-2. [ABY3 : A Mixed Protocol Framework for Machine Learning, CCS'18](https://eprint.iacr.org/2018/403.pdf)
-3. [BLAZE: Blazing Fast Privacy-Preserving Machine Learning, NDSS'20](https://eprint.iacr.org/2020/042)
-4. [Trident: Efficient 4PC Framework for Privacy Preserving Machine Learning, NDSS'20](https://eprint.iacr.org/2019/1315)
-5. [MOTION – A Framework for Mixed-Protocol Multi-Party Computation](https://eprint.iacr.org/2020/1137)
+- [ABY – A Framework for Effificient Mixed-Protocol Secure Two-Party Computation, NDSS'15](https://encrypto.de/papers/DSZ15.pdf)
+- [ABY3 : A Mixed Protocol Framework for Machine Learning, CCS'18](https://eprint.iacr.org/2018/403.pdf)
+- [Trident: Efficient 4PC Framework for Privacy Preserving Machine Learning, NDSS'20](https://eprint.iacr.org/2019/1315)
+- [MP-SPDZ: A versatile framework for multi-party computation, CCS'20](https://eprint.iacr.org/2020/521.pdf)
+- [ABY2.0: Improved Mixed-Protocol Secure Two-Party Computation, USENIX Security'21](https://eprint.iacr.org/2020/1225.pdf)
+- [MOTION – A Framework for Mixed-Protocol Multi-Party Computation, TOPS'22](https://eprint.iacr.org/2020/1137)
+- [Tetrad: Actively Secure 4PC for Secure Training and Inference, NDSS'22](https://arxiv.org/abs/2106.02850)
 
 #### 1.1.6 PSI
 
-- [BaRK-OPRF](https://github.com/osu-crypto/BaRK-OPRF), [2016/799](https://eprint.iacr.org/2016/799).
+- [Efficient Batched Oblivious PRF with Applications to Private Set Intersection, CCS'16](https://eprint.iacr.org/2016/799.pdf), [code: BaRK-OPRF](https://github.com/osu-crypto/BaRK-OPRF)
+- [Actively Secure 1-out-of-N OT Extension with Application to Private Set Intersection, CT-RSA'17](https://eprint.iacr.org/2016/933.pdf)
+- [SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, CRYPTO'19](https://eprint.iacr.org/2019/634.pdf)
+- [PSI from PaXoS: Fast, Malicious Private Set Intersection, EUROCRYPT'20](https://eprint.iacr.org/2020/193.pdf)
+- [VOLE-PSI: Fast OPRF and Circuit-PSI from Vector-OLE, EUROCRYPT'21](https://eprint.iacr.org/2021/266.pdf)
 - [LibPSI](https://github.com/osu-crypto/libPSI)
 - [PSI](https://github.com/encryptogroup/PSI), [2014/447](https://eprint.iacr.org/2014/447).
 
@@ -60,8 +77,8 @@
 - [Efficient Secure Two-Party Protocols](https://www.springer.com/us/book/9783642143021)
 - [Secure Multiparty Computation and Secret Sharing](http://www.cambridge.org/dk/academic/subjects/computer-science/cryptography-cryptology-and-coding/secure-multiparty-computation-and-secret-sharing?format=HB)
 
-- [Foundations of Cryptography Vol. 2 ](http://www.wisdom.weizmann.ac.il/~oded/foc-vol2.html).
-- [Engineering Secure Two-Party Computation Protocols ](https://www.sites.google.com/site/thomaschneider/publications/engineeringsfebook).
+- [Foundations of Cryptography Vol. 2 ](http://www.wisdom.weizmann.ac.il/~oded/foc-vol2.html)
+- [Engineering Secure Two-Party Computation Protocols ](https://www.sites.google.com/site/thomaschneider/publications/engineeringsfebook)
 
 
 ## 1.4 Courses
@@ -141,7 +158,7 @@ Libraries that can be used to implement applications using (Fully) Homomorphic E
 - [tf-encrypted](https://github.com/tf-encrypted/tf-encrypted) - Bridge between TensorFlow and the [Microsoft SEAL](#SEAL) library.
 
 ## FHE Papers
-  
+
 - [Fully homomorphic encryption using ideal lattices, STOC'99](https://dl.acm.org/doi/10.1145/1536414.1536440).
 - [Fully homomorphic encryption from ring-LWE and security for key dependent messages, CRYPTO'11](http://link.springer.com/10.1007/978-3-642-22792-9_29).
 - [Homomorphic Evaluation of the AES Circuit, CRYPTO'12](https://link.springer.com/chapter/10.1007/978-3-642-32009-5_49).
@@ -222,4 +239,5 @@ Libraries that can be used to implement applications using (Fully) Homomorphic E
 * [GALA : Greedy ComputAtion for Linear Algebra in Privacy-Preserved Neural Networks, NDSS'21](https://www.ndss-symposium.org/ndss-paper/gala-greedy-computation-for-linear-algebra-in-privacy-preserved-neural-networks/)
 * [Fantastic Four: Honest-Majority Four-Party Secure Computation With Malicious Security, USENIX Security'21](https://www.usenix.org/system/files/sec21fall-dalskov.pdf)
 * [When homomorphic encryption marries secret sharing: secure large-scale sparse logistic regression and applications in risk control, KDD'21](https://arxiv.org/abs/2008.08753)
-- [Microsoft Research](https://www.youtube.com/playlist?list=PLD7HFcN7LXRef-eTSGt_XOUJLZNoDINUn). Videos from SEAL/CKKS talks at Microsoft's Private AI Bootcamp.
+* [Microsoft Research](https://www.youtube.com/playlist?list=PLD7HFcN7LXRef-eTSGt_XOUJLZNoDINUn). Videos from SEAL/CKKS talks at Microsoft's Private AI Bootcamp.
+
