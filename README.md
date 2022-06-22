@@ -118,6 +118,54 @@
 
 # 4 Homomorphic Encryption (HE)
 
+## FHE Libraries
+
+Libraries that can be used to implement applications using (Fully) Homomorphic Encryption.
+- <a name="SEAL">[Microsoft SEAL](https://github.com/microsoft/SEAL) - C++ FHE library implementing BFV and CKKS schemes.</a>
+- <a name="HEAAN">[HEAAN](https://github.com/snucrypto/HEAAN) -  Scheme with native support for fixed point approximate arithmetic.
+- <a name="HElib">[HElib](https://github.com/HomEnc/HElib) - BGV scheme with bootstrapping and the Approximate Number CKKS scheme.
+- <a name="lattigo">[lattigo](https://github.com/ldsec/lattigo) - Go library for lattice-based crypto that implements various schemes.
+- <a name="PALISADE">[PALISADE](https://palisade-crypto.org/software-library) - lattice encryption library.
+- <a name="tfhe">[tfhe](https://github.com/tfhe/tfhe) - Faster fully HE: Bootstrapping in less than 0.1 seconds.</a>
+- [FHEW](https://github.com/lducas/FHEW) - A Fully HE library based on [_FHEW: Bootstrapping Homomorphic Encryption in less than a second_](https://eprint.iacr.org/2014/816).
+- [concrete](https://github.com/zama-ai/concrete) - Rust FHE library that implements Zama's variant of TFHE.
+- [Cupcake](https://github.com/facebookresearch/Cupcake) - Facebook's Rust library for the (additive version of the) Fan-Vercauteren scheme.
+
+## FHE Applications
+- [OpenMined](https://github.com/OpenMined) - Decentralized data ownership & intelligence based on HE and deep / federated learning.
+	- [KotlinSyft](https://github.com/OpenMined/KotlinSyft) - Kotlin library for the Android part of the OpenMined's open-source ecosystem.
+	- [PySyft](https://github.com/OpenMined/PySyft) - Python library for the server/IoT part of the OpenMined's open-source ecosystem.
+	- [SwiftSyft](https://github.com/OpenMined/SwiftSyft) - Swift library for the iOS part of the OpenMined's open-source ecosystem.
+	- [syft.js](https://github.com/OpenMined/syft.js) - JavaScript library for the web part of the OpenMined's open-source ecosystem.
+- [Rosetta](https://github.com/LatticeX-Foundation/Rosetta) - A privacy-preserving framework based on TensorFlow.
+- [tf-encrypted](https://github.com/tf-encrypted/tf-encrypted) - Bridge between TensorFlow and the [Microsoft SEAL](#SEAL) library.
+
+## FHE Papers
+  
+- [Fully homomorphic encryption using ideal lattices, STOC'99](https://dl.acm.org/doi/10.1145/1536414.1536440).
+- [Fully homomorphic encryption from ring-LWE and security for key dependent messages, CRYPTO'11](http://link.springer.com/10.1007/978-3-642-22792-9_29).
+- [Homomorphic Evaluation of the AES Circuit, CRYPTO'12](https://link.springer.com/chapter/10.1007/978-3-642-32009-5_49).
+- [Fully homomorphic encryption with polylog overhead, EUROCRYPT'12](https://link.springer.com/chapter/10.1007/978-3-642-29011-4_28).
+- [Fully Homomorphic Encryption without Modulus Switching from Classical GapSVP, CRYPTO'12](http://link.springer.com/10.1007/978-3-642-32009-5_50).
+- [Homomorphic Encryption from Learning with Errors: Conceptually-Simpler, Asymptotically-Faster, Attribute-Based, CRYPTO'13](http://link.springer.com/10.1007/978-3-642-40041-4_5)
+- [Algorithms in HElib, CRYPTO'14](http://link.springer.com/10.1007/978-3-662-44371-2_31)
+- [FHEW: Bootstrapping Homomorphic Encryption in Less Than a Second, EUROCRYPT'15](http://link.springer.com/10.1007/978-3-662-46800-5_24)
+- [Faster Fully Homomorphic Encryption: Bootstrapping in Less Than 0.1 Seconds, ASIACRYPT'16](http://link.springer.com/10.1007/978-3-662-53887-6_1)
+- [Faster packed homomorphic operations and efficient circuit bootstrapping for TFHE, ASIACRYPT'17](http://link.springer.com/10.1007/978-3-319-70694-8_14)
+- [Homomorphic Encryption for Arithmetic of Approximate Numbers, ASIACRYPT'17](http://link.springer.com/10.1007/978-3-319-70694-8_15)
+- [A Full RNS Variant of FV Like Somewhat Homomorphic Encryption Schemes, SAC'17](http://link.springer.com/10.1007/978-3-319-69453-5_23)
+- [Faster packed homomorphic operations and efficient circuit bootstrapping for TFHE, ASIACRYPT'17](10.1007/978-3-319-70694-8_14)
+- [Faster homomorphic linear transformations in HElib, CRYPTO'18](http://link.springer.com/10.1007/978-3-319-96884-1_4)
+- [Bootstrapping for Approximate Homomorphic Encryption, EUROCRYPT'18](https://link.springer.com/chapter/10.1007/978-3-319-78381-9_14)
+- [An Improved RNS Variant of the BFV Homomorphic Encryption Scheme, CT-RSA'19](http://link.springer.com/10.1007/978-3-030-12612-4_5)
+- [TFHE: Fast Fully Homomorphic Encryption Over the Torus, JOC'20](http://link.springer.com/10.1007/s00145-019-09319-x)
+- [Efficient Homomorphic Comparison Methods with Optimal Complexity, ASIACRYPT'2020](https://link.springer.com/10.1007/978-3-030-64834-3_8)
+- [PEGASUS: Bridging polynomial and non-polynomial evaluations in homomorphic encryption, S&P'21](https://ieeexplore.ieee.org/document/9519408/)
+- [General Bootstrapping Approach for RLWE-based Homomorphic Encryption, ePrint'21](https://eprint.iacr.org/2021/691)
+- [On the Security of Homomorphic Encryption on Approximate Numbers, EUROCRYPT'21](https://link.springer.com/10.1007/978-3-030-77870-5_23)
+- [Efficient Bootstrapping for Approximate Homomorphic Encryption with Non-sparse Keys, EUROCRYPT'21](https://link.springer.com/10.1007/978-3-030-77870-5_21)
+- [Efficient Homomorphic Conversion Between (Ring) LWE Ciphertexts, ACNS'21](https://link.springer.com/chapter/10.1007/978-3-030-78372-3_18)
+  
 # 5 Differential Privacy (DP)
 
 # 6 Zero-Knowledge Proof (ZKP)
@@ -174,3 +222,4 @@
 * [GALA : Greedy ComputAtion for Linear Algebra in Privacy-Preserved Neural Networks, NDSS'21](https://www.ndss-symposium.org/ndss-paper/gala-greedy-computation-for-linear-algebra-in-privacy-preserved-neural-networks/)
 * [Fantastic Four: Honest-Majority Four-Party Secure Computation With Malicious Security, USENIX Security'21](https://www.usenix.org/system/files/sec21fall-dalskov.pdf)
 * [When homomorphic encryption marries secret sharing: secure large-scale sparse logistic regression and applications in risk control, KDD'21](https://arxiv.org/abs/2008.08753)
+- [Microsoft Research](https://www.youtube.com/playlist?list=PLD7HFcN7LXRef-eTSGt_XOUJLZNoDINUn). Videos from SEAL/CKKS talks at Microsoft's Private AI Bootcamp.
