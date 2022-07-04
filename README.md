@@ -29,7 +29,7 @@
 - [Foundations of Garbled Circuits, CCS'12](https://eprint.iacr.org/2012/265.pdf)
 - [FleXOR: Flexible Garbling for XOR Gates That Beats Free-XOR, CRYPTO'14](https://eprint.iacr.org/2014/460.pdf)
 - [Two Halves Make a Whole: Reducing Data Transfer in Garbled Circuits using Half Gates, EUROCRYPT'15](https://eprint.iacr.org/2014/756.pdf)
-- MRZ15: [Fast and Secure Three-party Computation: The Garbled Circuit Approach, CCS'15](https://eprint.iacr.org/2015/931.pdf)
+- [MRZ15: Fast and Secure Three-party Computation: The Garbled Circuit Approach, CCS'15](https://eprint.iacr.org/2015/931.pdf)
 - [Three Halves Make a Whole? Beating the Half-Gates Lower Bound for Garbled Circuits, CRYPTO'21](https://eprint.iacr.org/2021/749.pdf)
 
 #### 1.1.3  Arithmetic/Boolean Circuit
@@ -48,6 +48,9 @@
 - [Fast large-scale honest-majority MPC for malicious adversaries, Crypto'18](https://eprint.iacr.org/2018/570)
 - [High-Throughput Semi-Honest Secure Three-Party Computation with an Honest Majority, CCS'16](https://dl.acm.org/citation.cfm?id=2978331)
 - [High-throughput secure three-party computation for malicious adversaries and an honest majority, Crypto'17](https://eprint.iacr.org/2016/944.pdf)
+- [Two-thirds honest-majority MPC for malicious adversaries at almost the cost of semi-honest, CCS'19](https://dl.acm.org/doi/10.1145/3319535.3339811)
+- [Minimising communication in honest-majority MPC by batchwise multiplication verification, ACNS'18](https://eprint.iacr.org/2018/474)
+- [Malicious Security Comes Free in Honest-Majority MPC, ePrint'20](https://eprint.iacr.org/2020/134)
 
 #### 1.1.5 A/B/Y Shares Conversion
 
@@ -212,7 +215,7 @@ Libraries that can be used to implement applications using (Fully) Homomorphic E
 * [DeepSecure: Scalable Provably-Secure Deep Learning, DAC'17](https://arxiv.org/abs/1705.08963)
 * [Secure Computation for Machine Learning With SPDZ, NIPS'18](https://arxiv.org/abs/1901.00329)
 * [ABY3:a Mixed protocol Framework for Machine Learning, CCS'18](https://eprint.iacr.org/2018/403.pdf)
-* [SecureNN: Efficient and Private Neural Network Training, PETS'18](https://eprint.iacr.org/2018/442.pdf)
+* [SecureNN: Efficient and Private Neural Network Training, PoPETs'18](https://eprint.iacr.org/2018/442.pdf)
 * [Gazelle: A Low Latency Framework for Secure Neural Network Inference, USENIX SECURITY'18](https://arxiv.org/abs/1801.05507)
 * [CHET: an optimizing compiler for fully-homomorphic neural-network inferencing, PLDI'19](https://dl.acm.org/citation.cfm?id=3314628)
 * [New Primitives for Actively-Secure MPC over Rings with Applications to Private Machine Learning, S&P'19](https://eprint.iacr.org/2019/599.pdf)
@@ -270,3 +273,4 @@ Libraries that can be used to implement applications using (Fully) Homomorphic E
 * [SecFloat: Accurate Floating-Point meets Secure 2-Party Computation, S&P'22](https://eprint.iacr.org/2022/322)
 * [MPClan: Protocol Suite for Privacy-Conscious Computations, IACR ePrint'22](https://eprint.iacr.org/2022/675)
 * [LLAMA: A Low Latency Math Library for Secure Inference, PoPETs'22](https://eprint.iacr.org/2022/793)
+* [Pika: Secure Computation using Function Secret Sharing over Rings, PoPETs'22](https://eprint.iacr.org/2022/826)
