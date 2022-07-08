@@ -66,13 +66,20 @@
 
 #### 1.1.6 PSI
 
+- [Faster Private Set Intersection based on OT Extension, USENIX Security'14](https://eprint.iacr.org/2014/447.pdf), [code: PSI](https://github.com/encryptogroup/PSI)
 - [Efficient Batched Oblivious PRF with Applications to Private Set Intersection, CCS'16](https://eprint.iacr.org/2016/799.pdf), [code: BaRK-OPRF](https://github.com/osu-crypto/BaRK-OPRF)
 - [Actively Secure 1-out-of-N OT Extension with Application to Private Set Intersection, CT-RSA'17](https://eprint.iacr.org/2016/933.pdf)
+- [Practical Multi-party Private Set Intersection from Symmetric-Key Techniques, CCS'17](https://eprint.iacr.org/2017/799.pdf), [code: MultipartyPSI](https://github.com/osu-crypto/MultipartyPSI)
+- [Scalable Private Set Intersection Based on OT Extension, TOPS'18](https://eprint.iacr.org/2016/930.pdf)
+- [Labeled PSI from Fully Homomorphic Encryption with Malicious Security, CCS'18](https://eprint.iacr.org/2018/787.pdf)
+- [An Algebraic Approach to Maliciously Secure Private Set Intersection, EUROCRYPT'19](https://eprint.iacr.org/2017/1064.pdf)
 - [SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, CRYPTO'19](https://eprint.iacr.org/2019/634.pdf)
 - [PSI from PaXoS: Fast, Malicious Private Set Intersection, EUROCRYPT'20](https://eprint.iacr.org/2020/193.pdf)
+- [Labeled PSI from homomorphic encryption with reduced computation and communication, CCS'21](https://eprint.iacr.org/2021/1116.pdf)
 - [VOLE-PSI: Fast OPRF and Circuit-PSI from Vector-OLE, EUROCRYPT'21](https://eprint.iacr.org/2021/266.pdf)
+- [Private Set Operations from Oblivious Switching, PKC'21](https://eprint.iacr.org/2021/243.pdf)
+- [Oblivious Key-Value Stores and Amplification for Private Set Intersection, CRYPTO'21](https://eprint.iacr.org/2021/883.pdf)
 - [LibPSI](https://github.com/osu-crypto/libPSI)
-- [PSI](https://github.com/encryptogroup/PSI), [2014/447](https://eprint.iacr.org/2014/447).
 
 #### 1.1.7 Multiparty ECDSA signing
 
@@ -86,16 +93,17 @@
 - Yehuda Lindell. [Secure Multiparty Computation (MPC)](https://eprint.iacr.org/2020/300.pdf)
 - Yehuda Lindell. [How to Simulate It - A Tutorial on the Simulation Proof Technique](https://eprint.iacr.org/2016/046.pdf)
 - Manoj Prabhakaran and Amit Sahai (Eds.) [Secure Multi-Party Computation](http://ebooks.iospress.com/volume/secure-multi-party-computation)
+- [An Introduction to Secret-Sharing-Based Secure Multiparty Computation, iACR ePrint'22](https://eprint.iacr.org/2022/062.pdf)
 
 ## 1.3 Books
 
-- [A Pragmatic Introduction to Secure Multi-Party Computation](https://securecomputation.org/)
-- [Applications of Secure Multiparty Computation](http://ebooks.iospress.nl/volume/applications-of-secure-multiparty-computation)
-- [Efficient Secure Two-Party Protocols](https://www.springer.com/us/book/9783642143021)
-- [Secure Multiparty Computation and Secret Sharing](http://www.cambridge.org/dk/academic/subjects/computer-science/cryptography-cryptology-and-coding/secure-multiparty-computation-and-secret-sharing?format=HB)
-
-- [Foundations of Cryptography Vol. 2 ](http://www.wisdom.weizmann.ac.il/~oded/foc-vol2.html)
-- [Engineering Secure Two-Party Computation Protocols ](https://www.sites.google.com/site/thomaschneider/publications/engineeringsfebook)
+- [The Foundations of Cryptography - Volume 1: Basic Tools, 2001](https://www.wisdom.weizmann.ac.il/~oded/foc-vol1.html)
+- [The Foundations of Cryptography - Volume 2: Basic Applications, 2003](http://www.wisdom.weizmann.ac.il/~oded/foc-vol2.html)
+- [Efficient secure two-party protocols: Techniques and constructions, 2010](https://www.springer.com/us/book/9783642143021)
+- [Engineering Secure Two-Party Computation Protocols, 2012](https://www.sites.google.com/site/thomaschneider/publications/engineeringsfebook)
+- [Secure Multiparty Computation and Secret Sharing, 2015](http://www.cambridge.org/dk/academic/subjects/computer-science/cryptography-cryptology-and-coding/secure-multiparty-computation-and-secret-sharing?format=HB)
+- [Applications of Secure Multiparty Computation, 2015](http://ebooks.iospress.nl/volume/applications-of-secure-multiparty-computation)
+- [A Pragmatic Introduction to Secure Multi-Party Computation, 2018](https://securecomputation.org/)
 
 
 ## 1.4 Courses
