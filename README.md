@@ -44,12 +44,14 @@
 - [A Framework for Constructing Fast MPC over Arithmetic Circuits with Malicious Adversaries and an Honest-Majority, CCS'17](https://eprint.iacr.org/2017/816.pdf)
 - [Overdrive^2k: Making SPDZ Great Again, Eurocrypto'18](https://eprint.iacr.org/2017/1230)
 - [Scalable and unconditionally secure multiparty computation, Crypto'07](https://www.iacr.org/archive/crypto2007/46220565/46220565.pdf)
+- [Perfectly-secure MPC with linear communication complexity, TCC'08](https://link.springer.com/chapter/10.1007/978-3-540-78524-8_13) 
 - [Sharemind: A framework for fast privacy-preserving computations, ESORICS'08](https://link.springer.com/chapter/10.1007/978-3-540-88313-5_13)
-- [Fast large-scale honest-majority MPC for malicious adversaries, Crypto'18](https://eprint.iacr.org/2018/570)
 - [High-Throughput Semi-Honest Secure Three-Party Computation with an Honest Majority, CCS'16](https://dl.acm.org/citation.cfm?id=2978331)
 - [High-throughput secure three-party computation for malicious adversaries and an honest majority, Crypto'17](https://eprint.iacr.org/2016/944.pdf)
-- [Two-thirds honest-majority MPC for malicious adversaries at almost the cost of semi-honest, CCS'19](https://dl.acm.org/doi/10.1145/3319535.3339811)
+- [Fast large-scale honest-majority MPC for malicious adversaries, Crypto'18](https://eprint.iacr.org/2018/570)
 - [Minimising communication in honest-majority MPC by batchwise multiplication verification, ACNS'18](https://eprint.iacr.org/2018/474)
+- [Two-thirds honest-majority MPC for malicious adversaries at almost the cost of semi-honest, CCS'19](https://dl.acm.org/doi/10.1145/3319535.3339811)
+- [Efficient Information-Theoretic Secure Multiparty Computation over Z/pkZ via Galois Rings, TCC'19](https://eprint.iacr.org/2019/872)
 - [Malicious Security Comes Free in Honest-Majority MPC, ePrint'20](https://eprint.iacr.org/2020/134)
 
 #### 1.1.5 A/B/Y Shares Conversion
