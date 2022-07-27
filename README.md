@@ -89,6 +89,8 @@
 - [Blockchain-Crypto-MPC](https://github.com/unbound-tech/blockchain-crypto-mpc), [CCS'18](https://eprint.iacr.org/2018/987)
 - [MPECDSA](https://gitlab.com/neucrypt/mpecdsa), [S&P'19](https://eprint.iacr.org/2019/523.pdf)
 
+#### 1.1.8 Function Secret Sharing
+- [Secure Computation with Preprocessing via Function Secret Sharing, TCC'19](https://link.springer.com/content/pdf/10.1007/978-3-030-36030-6_14.pdf)
 
 
 ## 1.2 Survey
