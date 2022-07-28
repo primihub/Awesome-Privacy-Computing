@@ -77,11 +77,13 @@
 - [An Algebraic Approach to Maliciously Secure Private Set Intersection, EUROCRYPT'19](https://eprint.iacr.org/2017/1064.pdf)
 - [SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, CRYPTO'19](https://eprint.iacr.org/2019/634.pdf)
 - [PSI from PaXoS: Fast, Malicious Private Set Intersection, EUROCRYPT'20](https://eprint.iacr.org/2020/193.pdf)
+- [Private Set Intersection in the Internet Setting from Lightweight Oblivious PRF, CRYPTO'20](https://link.springer.com/content/pdf/10.1007/978-3-030-56877-1_2.pdf)
 - [Labeled PSI from homomorphic encryption with reduced computation and communication, CCS'21](https://eprint.iacr.org/2021/1116.pdf)
 - [Efficient Linear Multiparty PSI and Extensions to Circuit/Quorum PSI, CCS'21](https://eprint.iacr.org/2021/172.pdf)
 - [VOLE-PSI: Fast OPRF and Circuit-PSI from Vector-OLE, EUROCRYPT'21](https://eprint.iacr.org/2021/266.pdf)
 - [Private Set Operations from Oblivious Switching, PKC'21](https://eprint.iacr.org/2021/243.pdf)
 - [Oblivious Key-Value Stores and Amplification for Private Set Intersection, CRYPTO'21](https://eprint.iacr.org/2021/883.pdf)
+- [Circuit-PSI With Linear Complexity via Relaxed Batch OPPRF, PoPETS'22](https://petsymposium.org/2022/files/papers/issue1/popets-2022-0018.pdf)
 - [LibPSI](https://github.com/osu-crypto/libPSI)
 
 #### 1.1.7 Multiparty ECDSA signing
@@ -91,7 +93,7 @@
 
 #### 1.1.8 Function Secret Sharing
 - [Secure Computation with Preprocessing via Function Secret Sharing, TCC'19](https://link.springer.com/content/pdf/10.1007/978-3-030-36030-6_14.pdf)
-
+- [Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation, EUROCRYPT'21](https://link.springer.com/content/pdf/10.1007/978-3-030-77886-6_30.pdf)
 
 ## 1.2 Survey
 
