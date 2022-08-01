@@ -45,6 +45,7 @@
 - [A Framework for Constructing Fast MPC over Arithmetic Circuits with Malicious Adversaries and an Honest-Majority, CCS'17](https://eprint.iacr.org/2017/816.pdf)
 - [SPDZ2k: Efficient MPC mod 2k for Dishonest Majority, CRYPTO'18](https://eprint.iacr.org/2018/482.pdf)
 - [Overdrive^2k: Making SPDZ Great Again, Eurocrypto'18](https://eprint.iacr.org/2017/1230)
+- [An end-to-end system for large scale P2P MPC-as-a-service and low-bandwidth MPC for weak participants, CCS'18](https://eprint.iacr.org/2018/751.pdf)
 - [Fast large-scale honest-majority MPC for malicious adversaries, CRYPTO'18](https://eprint.iacr.org/2018/570)
 - [Minimising communication in honest-majority MPC by batchwise multiplication verification, ACNS'18](https://eprint.iacr.org/2018/474)
 - [Two-thirds honest-majority MPC for malicious adversaries at almost the cost of semi-honest, CCS'19](https://dl.acm.org/doi/10.1145/3319535.3339811)
@@ -52,11 +53,15 @@
 - [Malicious Security Comes Free in Honest-Majority MPC, IACR ePrint'20](https://eprint.iacr.org/2020/134)
 - [ATLAS: Efficient and Scalable MPC in the Honest Majority Setting, CRYPTO'21](https://eprint.iacr.org/2021/833)
 - [The Cost of IEEE Arithmetic in Secure Computation, LatinCrypt'21](https://eprint.iacr.org/2021/054)
+- [Rabbit: Efficient Comparison for Secure Multi-Party Computation, FC'21](https://eprint.iacr.org/2021/119)
+- [Honest Majority MPC with Abort with Minimal Online Communication, Latincrypt'21](https://eprint.iacr.org/2020/1556)
+- [CostCO: An automatic cost modeling framework for secure multi-party computation, Euro S&P'22](https://eprint.iacr.org/2022/332)
 - [Fast Fully Secure Multi-Party Computation over Any Ring with Two-Thirds Honest Majority, CCS'22](https://eprint.iacr.org/2022/623)
+- [More Efficient Dishonest Majority Secure Computation over Z2k via Galois Rings, CRYPTO'22](https://eprint.iacr.org/2022/815.pdf)
 
 #### 1.1.5 A/B/Y Shares Conversion
 
-- [ABY – A Framework for Effificient Mixed-Protocol Secure Two-Party Computation, NDSS'15](https://encrypto.de/papers/DSZ15.pdf)
+- [ABY: A Framework for Effificient Mixed-Protocol Secure Two-Party Computation, NDSS'15](https://encrypto.de/papers/DSZ15.pdf)
 - [ABY3: A Mixed Protocol Framework for Machine Learning, CCS'18](https://eprint.iacr.org/2018/403.pdf)
 - [Trident: Efficient 4PC Framework for Privacy Preserving Machine Learning, NDSS'20](https://eprint.iacr.org/2019/1315)
 - [MP-SPDZ: A versatile framework for multi-party computation, CCS'20](https://eprint.iacr.org/2020/521.pdf)
