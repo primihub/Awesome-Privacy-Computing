@@ -44,6 +44,7 @@
 - [High-throughput secure three-party computation for malicious adversaries and an honest majority, CRYPTO'17](https://eprint.iacr.org/2016/944.pdf)
 - [A Framework for Constructing Fast MPC over Arithmetic Circuits with Malicious Adversaries and an Honest-Majority, CCS'17](https://eprint.iacr.org/2017/816.pdf)
 - [SPDZ2k: Efficient MPC mod 2k for Dishonest Majority, CRYPTO'18](https://eprint.iacr.org/2018/482.pdf)
+- [Yet another compiler for active security or: Efficient MPC over arbitrary rings, CRYPTO'18](https://eprint.iacr.org/2017/908)
 - [Overdrive^2k: Making SPDZ Great Again, Eurocrypto'18](https://eprint.iacr.org/2017/1230)
 - [An end-to-end system for large scale P2P MPC-as-a-service and low-bandwidth MPC for weak participants, CCS'18](https://eprint.iacr.org/2018/751.pdf)
 - [Fast large-scale honest-majority MPC for malicious adversaries, CRYPTO'18](https://eprint.iacr.org/2018/570)
@@ -51,6 +52,7 @@
 - [Two-thirds honest-majority MPC for malicious adversaries at almost the cost of semi-honest, CCS'19](https://dl.acm.org/doi/10.1145/3319535.3339811)
 - [Efficient Information-Theoretic Secure Multiparty Computation over Z/pkZ via Galois Rings, TCC'19](https://eprint.iacr.org/2019/872)
 - [Malicious Security Comes Free in Honest-Majority MPC, IACR ePrint'20](https://eprint.iacr.org/2020/134)
+- [Use Your Brain! Arithmetic 3PC for Any Modulus with Active Security, ITC'20](https://eprint.iacr.org/2019/164.pdf)
 - [ATLAS: Efficient and Scalable MPC in the Honest Majority Setting, CRYPTO'21](https://eprint.iacr.org/2021/833)
 - [The Cost of IEEE Arithmetic in Secure Computation, LatinCrypt'21](https://eprint.iacr.org/2021/054)
 - [Rabbit: Efficient Comparison for Secure Multi-Party Computation, FC'21](https://eprint.iacr.org/2021/119)
@@ -92,9 +94,8 @@
 - [LibPSI](https://github.com/osu-crypto/libPSI)
 
 #### 1.1.7 Multiparty ECDSA signing
-
-- [Blockchain-Crypto-MPC](https://github.com/unbound-tech/blockchain-crypto-mpc), [CCS'18](https://eprint.iacr.org/2018/987)
-- [MPECDSA](https://gitlab.com/neucrypt/mpecdsa), [S&P'19](https://eprint.iacr.org/2019/523.pdf)
+- [Fast Secure Multiparty ECDSA with Practical Distributed Key Generation and Applications to Cryptocurrency Custody, CCS'18](https://eprint.iacr.org/2018/987), [code: Blockchain-Crypto-MPC](https://github.com/unbound-tech/blockchain-crypto-mpc)
+- [Threshold ECDSA from ECDSA Assumptions: The Multiparty Case, S&P'19](https://eprint.iacr.org/2019/523), [code: MPECDSA](https://gitlab.com/neucrypt/mpecdsa)
 
 #### 1.1.8 Function Secret Sharing
 - [Secure Computation with Preprocessing via Function Secret Sharing, TCC'19](https://link.springer.com/content/pdf/10.1007/978-3-030-36030-6_14.pdf)
@@ -106,6 +107,7 @@
 - [How to Simulate It - A Tutorial on the Simulation Proof Technique](https://eprint.iacr.org/2016/046.pdf), Yehuda Lindell.
 - [Secure Multi-Party Computation](http://ebooks.iospress.com/volume/secure-multi-party-computation), Manoj Prabhakaran, Amit Sahai. 
 - [An Introduction to Secret-Sharing-Based Secure Multiparty Computation](https://eprint.iacr.org/2022/062.pdf), Daniel Escudero. 
+- [实用安全多方计算协议关键技术研究进展, 计算机研究与发展'15](https://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2015.20150763)
 
 ## 1.3 Books
 
@@ -173,7 +175,7 @@
 
 # 4 Homomorphic Encryption (HE)
 
-## FHE Libraries
+## 4.1 FHE Libraries
 
 Libraries that can be used to implement applications using (Fully) Homomorphic Encryption.
 - [Microsoft SEAL](https://github.com/microsoft/SEAL) - C++ FHE library implementing BFV and CKKS schemes.</a>
@@ -186,7 +188,7 @@ Libraries that can be used to implement applications using (Fully) Homomorphic E
 - [concrete](https://github.com/zama-ai/concrete) - Rust FHE library that implements Zama's variant of TFHE.
 - [Cupcake](https://github.com/facebookresearch/Cupcake) - Facebook's Rust library for the (additive version of the) Fan-Vercauteren scheme.
 
-## FHE Applications
+## 4.2 FHE Applications
 - [OpenMined](https://github.com/OpenMined) - Decentralized data ownership & intelligence based on HE and deep / federated learning.
 	- [KotlinSyft](https://github.com/OpenMined/KotlinSyft) - Kotlin library for the Android part of the OpenMined's open-source ecosystem.
 	- [PySyft](https://github.com/OpenMined/PySyft) - Python library for the server/IoT part of the OpenMined's open-source ecosystem.
@@ -195,7 +197,7 @@ Libraries that can be used to implement applications using (Fully) Homomorphic E
 - [Rosetta](https://github.com/LatticeX-Foundation/Rosetta) - A privacy-preserving framework based on TensorFlow.
 - [tf-encrypted](https://github.com/tf-encrypted/tf-encrypted) - Bridge between TensorFlow and the [Microsoft SEAL](#SEAL) library.
 
-## FHE Papers
+## 4.3 FHE Papers
 
 - [Fully homomorphic encryption using ideal lattices, STOC'99](https://dl.acm.org/doi/10.1145/1536414.1536440).
 - [Fully homomorphic encryption from ring-LWE and security for key dependent messages, CRYPTO'11](http://link.springer.com/10.1007/978-3-642-22792-9_29).
@@ -225,9 +227,11 @@ Libraries that can be used to implement applications using (Fully) Homomorphic E
 # 5 Differential Privacy (DP)
 
 # 6 Zero-Knowledge Proof (ZKP)
+- [简洁非交互零知识证明综述, 密码学报'22](http://www.jcr.cacrnet.org.cn/CN/Y2022/V9/I3/379)
 
 # 7 Privacy-Preserving Machine Learning (PPML)
 
+## 7.1 Papers
 * [Machine Learning Classification over Encrypted Data, NDSS'14](https://eprint.iacr.org/2014/331.pdf)
 * [Oblivious Multi-Party Machine Learning on Trusted Processors, USENIX SECURITY'16](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/ohrimenko)
 * [CryptoNets: Applying Neural Networks to Encrypted Data with High Throughput and Accuracy, ICML'16](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/04/CryptonetsTechReport.pdf)
@@ -279,7 +283,6 @@ Libraries that can be used to implement applications using (Fully) Homomorphic E
 * [GALA: Greedy ComputAtion for Linear Algebra in Privacy-Preserved Neural Networks, NDSS'21](https://www.ndss-symposium.org/ndss-paper/gala-greedy-computation-for-linear-algebra-in-privacy-preserved-neural-networks/)
 * [Fantastic Four: Honest-Majority Four-Party Secure Computation With Malicious Security, USENIX Security'21](https://www.usenix.org/system/files/sec21fall-dalskov.pdf)
 * [When homomorphic encryption marries secret sharing: secure large-scale sparse logistic regression and applications in risk control, KDD'21](https://arxiv.org/abs/2008.08753)
-* [Microsoft Research](https://www.youtube.com/playlist?list=PLD7HFcN7LXRef-eTSGt_XOUJLZNoDINUn). Videos from SEAL/CKKS talks at Microsoft's Private AI Bootcamp.
 * [Circa: Stochastic ReLUs for Private Deep Learning, NeurIPS'21](https://proceedings.neurips.cc/paper/2021/file/11eba2991cc62daa4a85be5c0cfdae97-Paper.pdf)
 * [Mystique: Efficient Conversions for Zero-Knowledge Proofs with Applications to Machine Learning, USENIX Security'21](https://eprint.iacr.org/2021/730)
 * [FALCON: Honest-Majority Maliciously Secure Framework for Private Deep Learning, PoPETs'21](https://arxiv.org/abs/2004.02229)
@@ -299,3 +302,11 @@ Libraries that can be used to implement applications using (Fully) Homomorphic E
 * [Pika: Secure Computation using Function Secret Sharing over Rings, PoPETs'22](https://eprint.iacr.org/2022/826)
 * [Piranha: A GPU platform for secure computation, USENIX Security'22](https://www.usenix.org/conference/usenixsecurity22/presentation/watson)
 * [Secure Quantized Training for Deep Learning, ICML'22](https://arxiv.org/abs/2107.00501)
+
+## 7.2 Survey
+
+* [机器学习隐私保护研究综述, 软件学报'20](http://www.jos.org.cn/jos/article/abstract/6052)
+* [安全多方计算及其在机器学习中的应用, 计算机研究与发展'21](https://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2021.20210626)
+
+## 7.3 Videos
+* [Microsoft Research](https://www.youtube.com/playlist?list=PLD7HFcN7LXRef-eTSGt_XOUJLZNoDINUn). Videos from SEAL/CKKS talks at Microsoft's Private AI Bootcamp.
