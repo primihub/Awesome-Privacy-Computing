@@ -45,6 +45,7 @@
 - [A Framework for Constructing Fast MPC over Arithmetic Circuits with Malicious Adversaries and an Honest-Majority, CCS'17](https://eprint.iacr.org/2017/816.pdf)
 - [SPDZ2k: Efficient MPC mod 2k for Dishonest Majority, CRYPTO'18](https://eprint.iacr.org/2018/482.pdf)
 - [Overdrive^2k: Making SPDZ Great Again, Eurocrypto'18](https://eprint.iacr.org/2017/1230)
+- [An end-to-end system for large scale P2P MPC-as-a-service and low-bandwidth MPC for weak participants, CCS'18](https://eprint.iacr.org/2018/751.pdf)
 - [Fast large-scale honest-majority MPC for malicious adversaries, CRYPTO'18](https://eprint.iacr.org/2018/570)
 - [Minimising communication in honest-majority MPC by batchwise multiplication verification, ACNS'18](https://eprint.iacr.org/2018/474)
 - [Two-thirds honest-majority MPC for malicious adversaries at almost the cost of semi-honest, CCS'19](https://dl.acm.org/doi/10.1145/3319535.3339811)
@@ -52,11 +53,15 @@
 - [Malicious Security Comes Free in Honest-Majority MPC, IACR ePrint'20](https://eprint.iacr.org/2020/134)
 - [ATLAS: Efficient and Scalable MPC in the Honest Majority Setting, CRYPTO'21](https://eprint.iacr.org/2021/833)
 - [The Cost of IEEE Arithmetic in Secure Computation, LatinCrypt'21](https://eprint.iacr.org/2021/054)
+- [Rabbit: Efficient Comparison for Secure Multi-Party Computation, FC'21](https://eprint.iacr.org/2021/119)
+- [Honest Majority MPC with Abort with Minimal Online Communication, Latincrypt'21](https://eprint.iacr.org/2020/1556)
+- [CostCO: An automatic cost modeling framework for secure multi-party computation, Euro S&P'22](https://eprint.iacr.org/2022/332)
 - [Fast Fully Secure Multi-Party Computation over Any Ring with Two-Thirds Honest Majority, CCS'22](https://eprint.iacr.org/2022/623)
+- [More Efficient Dishonest Majority Secure Computation over Z2k via Galois Rings, CRYPTO'22](https://eprint.iacr.org/2022/815.pdf)
 
 #### 1.1.5 A/B/Y Shares Conversion
 
-- [ABY – A Framework for Effificient Mixed-Protocol Secure Two-Party Computation, NDSS'15](https://encrypto.de/papers/DSZ15.pdf)
+- [ABY: A Framework for Effificient Mixed-Protocol Secure Two-Party Computation, NDSS'15](https://encrypto.de/papers/DSZ15.pdf)
 - [ABY3: A Mixed Protocol Framework for Machine Learning, CCS'18](https://eprint.iacr.org/2018/403.pdf)
 - [Trident: Efficient 4PC Framework for Privacy Preserving Machine Learning, NDSS'20](https://eprint.iacr.org/2019/1315)
 - [MP-SPDZ: A versatile framework for multi-party computation, CCS'20](https://eprint.iacr.org/2020/521.pdf)
@@ -77,11 +82,13 @@
 - [An Algebraic Approach to Maliciously Secure Private Set Intersection, EUROCRYPT'19](https://eprint.iacr.org/2017/1064.pdf)
 - [SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, CRYPTO'19](https://eprint.iacr.org/2019/634.pdf)
 - [PSI from PaXoS: Fast, Malicious Private Set Intersection, EUROCRYPT'20](https://eprint.iacr.org/2020/193.pdf)
+- [Private Set Intersection in the Internet Setting from Lightweight Oblivious PRF, CRYPTO'20](https://link.springer.com/content/pdf/10.1007/978-3-030-56877-1_2.pdf)
 - [Labeled PSI from homomorphic encryption with reduced computation and communication, CCS'21](https://eprint.iacr.org/2021/1116.pdf)
 - [Efficient Linear Multiparty PSI and Extensions to Circuit/Quorum PSI, CCS'21](https://eprint.iacr.org/2021/172.pdf)
 - [VOLE-PSI: Fast OPRF and Circuit-PSI from Vector-OLE, EUROCRYPT'21](https://eprint.iacr.org/2021/266.pdf)
 - [Private Set Operations from Oblivious Switching, PKC'21](https://eprint.iacr.org/2021/243.pdf)
 - [Oblivious Key-Value Stores and Amplification for Private Set Intersection, CRYPTO'21](https://eprint.iacr.org/2021/883.pdf)
+- [Circuit-PSI With Linear Complexity via Relaxed Batch OPPRF, PoPETS'22](https://petsymposium.org/2022/files/papers/issue1/popets-2022-0018.pdf)
 - [LibPSI](https://github.com/osu-crypto/libPSI)
 
 #### 1.1.7 Multiparty ECDSA signing
@@ -89,7 +96,9 @@
 - [Blockchain-Crypto-MPC](https://github.com/unbound-tech/blockchain-crypto-mpc), [CCS'18](https://eprint.iacr.org/2018/987)
 - [MPECDSA](https://gitlab.com/neucrypt/mpecdsa), [S&P'19](https://eprint.iacr.org/2019/523.pdf)
 
-
+#### 1.1.8 Function Secret Sharing
+- [Secure Computation with Preprocessing via Function Secret Sharing, TCC'19](https://link.springer.com/content/pdf/10.1007/978-3-030-36030-6_14.pdf)
+- [Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation, EUROCRYPT'21](https://link.springer.com/content/pdf/10.1007/978-3-030-77886-6_30.pdf)
 
 ## 1.2 Survey
 
