@@ -84,13 +84,17 @@
 - [An Algebraic Approach to Maliciously Secure Private Set Intersection, EUROCRYPT'19](https://eprint.iacr.org/2017/1064.pdf)
 - [SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension, CRYPTO'19](https://eprint.iacr.org/2019/634.pdf)
 - [PSI from PaXoS: Fast, Malicious Private Set Intersection, EUROCRYPT'20](https://eprint.iacr.org/2020/193.pdf)
-- [Private Set Intersection in the Internet Setting from Lightweight Oblivious PRF, CRYPTO'20](https://link.springer.com/content/pdf/10.1007/978-3-030-56877-1_2.pdf)
+- [Private Set Intersection in the Internet Setting from Lightweight Oblivious PRF, CRYPTO'20](https://eprint.iacr.org/2020/729.pdf)
 - [Labeled PSI from homomorphic encryption with reduced computation and communication, CCS'21](https://eprint.iacr.org/2021/1116.pdf)
 - [Efficient Linear Multiparty PSI and Extensions to Circuit/Quorum PSI, CCS'21](https://eprint.iacr.org/2021/172.pdf)
 - [VOLE-PSI: Fast OPRF and Circuit-PSI from Vector-OLE, EUROCRYPT'21](https://eprint.iacr.org/2021/266.pdf)
 - [Private Set Operations from Oblivious Switching, PKC'21](https://eprint.iacr.org/2021/243.pdf)
+- [Multi-party Threshold Private Set Intersection with Sublinear Communication, PKC'21](https://eprint.iacr.org/2020/600)
 - [Oblivious Key-Value Stores and Amplification for Private Set Intersection, CRYPTO'21](https://eprint.iacr.org/2021/883.pdf)
 - [Circuit-PSI With Linear Complexity via Relaxed Batch OPPRF, PoPETS'22](https://petsymposium.org/2022/files/papers/issue1/popets-2022-0018.pdf)
+- [Structure-Aware Private Set Intersection, With Applications to Fuzzy Matching, CRYPTO'22](https://eprint.iacr.org/2022/1011), [code: FuzzyPSI](https://github.com/osu-crypto/FuzzyPSI)
+- [Blazing Fast PSI from Improved OKVS and Subfield VOLE, ePrint'22](https://eprint.iacr.org/2022/320)
+- [A Plug-n-Play Framework for Scaling Private Set Intersection to Billion-sized Sets, ePrint'22](https://eprint.iacr.org/2022/294)
 - [LibPSI](https://github.com/osu-crypto/libPSI)
 
 #### 1.1.7 Multiparty ECDSA signing
@@ -164,8 +168,8 @@
 * [SAFER: Sparse secure Aggregation for FEderated leaRning](https://arxiv.org/abs/2007.14861)
 * [Secure Byzantine-Robust Machine Learning](https://arxiv.org/abs/2006.04747)
 * [Secure Single-Server Aggregation with (Poly)Logarithmic Overhead, CCS'20](https://eprint.iacr.org/2020/704.pdf)
-* [Batchcrypt: Efficient homomorphic encryption for cross-silo federated learning, USENIX ATC'21](https://www.usenix.org/conference/atc20/presentation/zhang-chengliang)
 * [FedSel: Federated SGD under Local Differential Privacy with Top-k Dimension Selection, DASFAA'20](https://arxiv.org/abs/2003.10637)
+* [Batchcrypt: Efficient homomorphic encryption for cross-silo federated learning, USENIX ATC'21](https://www.usenix.org/conference/atc20/presentation/zhang-chengliang)
 * [FLGUARD: Secure and Private Federated Learning, Cryptology Eprint'21](https://eprint.iacr.org/2021/025)
 * [Biscotti: A Blockchain System for Private and Secure Federated Learning, TPDS'21](https://ieeexplore.ieee.org/document/9292450)
 * [POSEIDON: Privacy-Preserving Federated Neural Network Learning, NDSS'21](https://arxiv.org/abs/2009.00349)
@@ -178,12 +182,12 @@
 ## 4.1 FHE Libraries
 
 Libraries that can be used to implement applications using (Fully) Homomorphic Encryption.
-- [Microsoft SEAL](https://github.com/microsoft/SEAL) - C++ FHE library implementing BFV and CKKS schemes.</a>
+- [Microsoft SEAL](https://github.com/microsoft/SEAL) - C++ FHE library implementing BFV and CKKS schemes.
 - [HEAAN](https://github.com/snucrypto/HEAAN) -  Scheme with native support for fixed point approximate arithmetic.
 - [HElib](https://github.com/HomEnc/HElib) - BGV scheme with bootstrapping and the Approximate Number CKKS scheme.
 - [lattigo](https://github.com/ldsec/lattigo) - Go library for lattice-based crypto that implements various schemes.
 - [PALISADE](https://palisade-crypto.org/software-library) - lattice encryption library.
-- [tfhe](https://github.com/tfhe/tfhe) - Faster fully HE: Bootstrapping in less than 0.1 seconds.</a>
+- [tfhe](https://github.com/tfhe/tfhe) - Faster fully HE: Bootstrapping in less than 0.1 seconds.
 - [FHEW](https://github.com/lducas/FHEW) - A Fully HE library based on [_FHEW: Bootstrapping Homomorphic Encryption in less than a second_](https://eprint.iacr.org/2014/816).
 - [concrete](https://github.com/zama-ai/concrete) - Rust FHE library that implements Zama's variant of TFHE.
 - [Cupcake](https://github.com/facebookresearch/Cupcake) - Facebook's Rust library for the (additive version of the) Fan-Vercauteren scheme.
@@ -302,6 +306,7 @@ Libraries that can be used to implement applications using (Fully) Homomorphic E
 * [Pika: Secure Computation using Function Secret Sharing over Rings, PoPETs'22](https://eprint.iacr.org/2022/826)
 * [Piranha: A GPU platform for secure computation, USENIX Security'22](https://www.usenix.org/conference/usenixsecurity22/presentation/watson)
 * [Secure Quantized Training for Deep Learning, ICML'22](https://arxiv.org/abs/2107.00501)
+* [Prio+: Privacy Preserving Aggregate Statistics via Boolean Shares, ePrint'22](https://eprint.iacr.org/2021/576)
 
 ## 7.2 Survey
 
