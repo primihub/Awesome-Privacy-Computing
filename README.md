@@ -232,6 +232,7 @@ Libraries that can be used to implement applications using (Fully) Homomorphic E
 
 # 6 Zero-Knowledge Proof (ZKP)
 - [简洁非交互零知识证明综述, 密码学报'22](http://www.jcr.cacrnet.org.cn/CN/Y2022/V9/I3/379)
+- [zk mooc](https://zk-learning.org/)
 
 # 7 Privacy-Preserving Machine Learning (PPML)
 
