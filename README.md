@@ -230,6 +230,67 @@ Libraries that can be used to implement applications using (Fully) Homomorphic E
 - [OpenFHE: Open-Source Fully Homomorphic Encryption Library, ePrint'22](https://eprint.iacr.org/2022/915)
   
 # 5 Differential Privacy (DP)
+## 5.1 DP Papers
+
+- [Randomized Response: A Survey Technique for Eliminating Evasive Answer Bias, JASA'65](https://www.jstor.org/stable/2283137?origin=crossref)
+- [Mechanism Design via Differential Privacy, FOCS'07](https://ieeexplore.ieee.org/document/4389483)
+- [How Much Is Enough? Choosing ε for Differential Privacy, ISC'11](http://link.springer.com/10.1007/978-3-642-24861-0_22)
+- [Differentially Private Empirical Risk Minimization, JMLR'11](https://www.jmlr.org/papers/volume12/chaudhuri11a/chaudhuri11a.pdf)
+- [Personal privacy vs population privacy, KDD'11](https://dl.acm.org/doi/10.1145/2020408.2020598)
+- [Functional Mechanism: Regression Analysis under Differential Privacy, VLDB'12](http://arxiv.org/abs/1208.0219)
+- [Stochastic gradient descent with differentially private updates, GlobalSIP'13](http://ieeexplore.ieee.org/document/6736861/)
+- [RAPPOR: Randomized Aggregatable Privacy-Preserving Ordinal Response, CCS'14](http://arxiv.org/abs/1407.6981)
+- [Efficient Per-Example Gradient Computations, arXiv'15](http://arxiv.org/abs/1510.01799)
+- [Privacy-Preserving Deep Learning, CCS'15](https://dl.acm.org/doi/abs/10.1145/2810103.2813687)
+- [Concentrated Differential Privacy, arXiv'16](http://arxiv.org/abs/1603.01887)
+- [Deep Learning with Differential Privacy, CCS'16](http://arxiv.org/abs/1607.00133)
+- [Differentially Private Password Frequency Lists, NDSS'16](https://www.ndss-symposium.org/wp-content/uploads/2017/09/differentially-private-password-frequency-lists.pdf)
+- [Concentrated Differential Privacy: Simplifications, Extensions, and Lower Bounds, TCC'16](http://arxiv.org/abs/1605.02065)
+- [Rényi Differential Privacy, CSF'17](https://arxiv.org/abs/1702.07476)
+- [Semi-supervised Knowledge Transfer for Deep Learning from Private Training Data, ICLR'17](http://arxiv.org/abs/1610.05755)
+- [Locally differentially private protocols for frequency estimation, USENIX Security'17](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-wang-tianhao.pdf)
+- [Understanding the sparse vector technique for differential privacy, VLDB'17](https://arxiv.org/abs/1603.01699)
+- [Detecting Violations of Differential Privacy, CCS'18](http://arxiv.org/abs/1805.10277)
+- [Privacy Risk in Machine Learning: Analyzing the Connection to Overfitting, CSF'18](https://arxiv.org/abs/1709.01604)
+- [Privacy Amplification by Iteration, FOCS'18](https://arxiv.org/abs/1808.06651)
+- [Learning Differentially Private Recurrent Language Models, ICLR'18](http://arxiv.org/abs/1710.06963)
+- [Scalable private learning with pate, ICLR'18](http://arxiv.org/abs/1802.08908)
+- [Differential Privacy: A Primer for a Non-Technical Audience, SSRN'18](https://www.ssrn.com/abstract=3338027)
+- [Rényi Differential Privacy of the Sampled Gaussian Mechanism, arXiv'19](http://arxiv.org/abs/1908.10530)
+- [That which we call private, arXiv'19](http://arxiv.org/abs/1908.03566)
+- [Differential Privacy in Practice: Expose your Epsilons!, JPC'19](https://journalprivacyconfidentiality.org/index.php/jpc/article/view/689)
+- [Understanding Gradient Clipping in Private SGD: A Geometric Perspective, NeurIPS'20](http://arxiv.org/abs/2006.15429)
+- [Locally Differentially Private Frequency Estimation with Consistency, NDSS'20](http://arxiv.org/abs/1905.08320)
+- [Automatic Discovery of Privacy–Utility Pareto Fronts, PETS'20](https://petsymposium.org/popets/2020/popets-2020-0060.php)
+- [Differential Privacy in the Shuffle Model: A Survey of Separations, arXiv'21](http://arxiv.org/abs/2107.11839)
+- [Tempered Sigmoid Activations for Deep Learning with Differential Privacy, AAAI'21](https://ojs.aaai.org/index.php/AAAI/article/view/17123)
+- [Differentially Private Learning Needs Better Features (or Much More Data), ICLR'21](http://arxiv.org/abs/2011.11660)
+- [Differentially Private Learning with Adaptive Clipping, NeurIPS'21](http://arxiv.org/abs/1905.03871)
+- [Enabling Fast Differentially Private SGD via Just-in-Time Compilation and Vectorization, NeurIPS'21](http://arxiv.org/abs/2010.09063)
+- [Scaling up Differentially Private Deep Learning with Fast Per-Example Gradient Clipping, PETS'21](https://petsymposium.org/popets/2021/popets-2021-0008.php)
+- [Automatic Clipping: Differentially Private Deep Learning Made Easier and Stronger, arXiv'22](http://arxiv.org/abs/2206.07136)
+- [Scalable and Efficient Training of Large Convolutional Neural Networks with Differential Privacy, NeurIPS'22](http://arxiv.org/abs/2205.10683)
+
+## 5.2 DP Books
+
+- [The Algorithmic Foundations of Differential Privacy](https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf), by Cynthia Dwork and Aaron Roth
+- [The Complexity of Differential Privacy](https://privacytools.seas.harvard.edu/files/privacytools/files/complexityprivacy_1.pdf), by Salil Vadhan
+- [Differential Privacy: From Theory to Practice](https://www.morganclaypool.com/doi/abs/10.2200/S00735ED1V01Y201609SPT018), by Ninghui Li, Min Lyu, Dong Su, Weining Yang
+
+## 5.3 DP Courses
+
+- [Algorithms for Private Data Analysis](http://www.gautamkamath.com/CS860-fa2020.html), taught by Gautam Kamath, [Youtube](https://www.youtube.com/playlist?list=PLmd_zeMNzSvRRNpoEWkVo6QY_6rR3SHjp), [Bilibili](https://www.bilibili.com/video/av843424106/)
+- [Privacy in Statistics and Machine Learning](https://dpcourse.github.io), taught by Adam Smith and Jonathan Ullman
+
+## 5.4 DP Libraries
+
+- [TensorFlow Privacy](https://github.com/tensorflow/privacy) - Training TensorFlow models with differential privacy
+- [Opacus](https://github.com/pytorch/opacus) - Training PyTorch models with differential privacy
+- [Google DP Library](https://github.com/google/differential-privacy) - Google's differential privacy libraries
+- [IBM DP Library](https://github.com/IBM/differential-privacy-library) - IBM's differential privacy library
+- [PyDP](https://github.com/OpenMined/PyDP) - OpenMined's Python DP library built on top of Google's
+- [PipelineDP](https://github.com/OpenMined/PipelineDP) - OpenMined's library for applying DP aggregations to large datasets
+- [OpenDP](https://github.com/opendp) - A modular collection of algorithms for building privacy-preserving applications
 
 # 6 Zero-Knowledge Proof (ZKP)
 - [简洁非交互零知识证明综述, 密码学报'22](http://www.jcr.cacrnet.org.cn/CN/Y2022/V9/I3/379)
