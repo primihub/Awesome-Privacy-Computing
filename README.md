@@ -97,11 +97,25 @@
 - [A Plug-n-Play Framework for Scaling Private Set Intersection to Billion-sized Sets, ePrint'22](https://eprint.iacr.org/2022/294)
 - [LibPSI](https://github.com/osu-crypto/libPSI)
 
-#### 1.1.7 Multiparty ECDSA signing
+#### 1.1.7 PIR (Private Information Retrieval)
+
+- [Private Information Retrieval, JACM'97](https://dl.acm.org/doi/10.1145/293347.293350)
+- [XPIR: Private Information Retrieval for Everyone, PETS'16](https://eprint.iacr.org/2014/1025)
+- [PIR with Compressed Queries and Amortized Query Processing, S&P'18](https://ieeexplore.ieee.org/document/8418648), [code: SealPIR](https://github.com/microsoft/SEALpir)
+- [Private Stateful Information Retrieval, CCS'18](https://dl.acm.org/doi/10.1145/3243734.3243821)
+- [SHECS-PIR: Somewhat Homomorphic Encryption-Based Compact and Scalable Private Information Retrieval, ESORICS 2020](https://dl.acm.org/doi/abs/10.1007/978-3-030-59013-0_5)
+- [Communication–Computation Trade-offs in PIR, USENIX Security'21](https://www.usenix.org/conference/usenixsecurity21/presentation/ali)
+- [Constant-weight PIR: Constant-weight PIR: Single-round Keyword PIR via Constant-weight Equality Operators, USENIX Security'22](https://www.usenix.org/conference/usenixsecurity22/presentation/mahdavi), [code](https://github.com/RasoulAM/constant-weight-pir)
+- [OnionPIR: OnionPIR: Response Efficient Single-Server PIR, CCS'21](https://dl.acm.org/doi/10.1145/3460120.3485381)
+- [Pantheon: Private Retrieval from Public Key-Value Store, VLDB'22](https://dl.acm.org/doi/10.14778/3574245.3574251)
+- [One Server for the Price of Two: Simple and Fast Single-Server Private Information Retrieval, USENIX Security'23](https://www.usenix.org/system/files/sec23summer_27-henzinger-prepub.pdf), [code](https://github.com/ahenzinger/simplepir)
+- [FrodoPIR: Simple, Scalable, Single-Server Private Information Retrieval, PETS'23](https://petsymposium.org/popets/2023/popets-2023-0022.pdf), [code](https://github.com/brave-experiments/frodo-pir)
+
+#### 1.1.8 Multiparty ECDSA signing
 - [Fast Secure Multiparty ECDSA with Practical Distributed Key Generation and Applications to Cryptocurrency Custody, CCS'18](https://eprint.iacr.org/2018/987), [code: Blockchain-Crypto-MPC](https://github.com/unbound-tech/blockchain-crypto-mpc)
 - [Threshold ECDSA from ECDSA Assumptions: The Multiparty Case, S&P'19](https://eprint.iacr.org/2019/523), [code: MPECDSA](https://gitlab.com/neucrypt/mpecdsa)
 
-#### 1.1.8 Function Secret Sharing
+#### 1.1.9 Function Secret Sharing
 - [Secure Computation with Preprocessing via Function Secret Sharing, TCC'19](https://link.springer.com/content/pdf/10.1007/978-3-030-36030-6_14.pdf)
 - [Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation, EUROCRYPT'21](https://link.springer.com/content/pdf/10.1007/978-3-030-77886-6_30.pdf)
 
