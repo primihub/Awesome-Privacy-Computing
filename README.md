@@ -191,6 +191,8 @@
 
 # 3 Trusted Execution Environment (TEE)
 
+- [dstack](https://github.com/Dstack-TEE/dstack) - Confidential computing framework for privacy-preserving deployment of containerized applications using Intel TDX and NVIDIA Confidential Computing.
+
 # 4 Homomorphic Encryption (HE)
 
 ## 4.1 FHE Libraries
