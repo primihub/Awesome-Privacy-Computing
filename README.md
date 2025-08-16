@@ -96,6 +96,7 @@
 - [Blazing Fast PSI from Improved OKVS and Subfield VOLE, ePrint'22](https://eprint.iacr.org/2022/320)
 - [A Plug-n-Play Framework for Scaling Private Set Intersection to Billion-sized Sets, ePrint'22](https://eprint.iacr.org/2022/294)
 - [LibPSI](https://github.com/osu-crypto/libPSI)
+- [OpenMined PSI - A polyglot protocol based on ECDH](https://github.com/OpenMined/PSI)
 
 #### 1.1.7 PIR (Private Information Retrieval)
 
