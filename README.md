@@ -121,7 +121,6 @@
 - [Function Secret Sharing for Mixed-Mode and Fixed-Point Secure Computation, EUROCRYPT'21](https://link.springer.com/content/pdf/10.1007/978-3-030-77886-6_30.pdf)
 
 ## 1.2 Survey
-
 - [Secure Multiparty Computation (MPC)](https://eprint.iacr.org/2020/300.pdf), Yehuda Lindell.
 - [How to Simulate It - A Tutorial on the Simulation Proof Technique](https://eprint.iacr.org/2016/046.pdf), Yehuda Lindell.
 - [Secure Multi-Party Computation](http://ebooks.iospress.com/volume/secure-multi-party-computation), Manoj Prabhakaran, Amit Sahai. 
@@ -171,7 +170,7 @@
 
 
 # 2 Federated Learning (FL)
-
+* [Clients Collaborate: Flexible Differentially Private Federated Learning with Guaranteed Improvement of Utility-Privacy Trade-off, ICML'2025](https://arxiv.org/abs/2402.07002) [[code](https://github.com/6lyc/FedCEO_Collaborate-with-Each-Other)]
 * [Privacy-Preserving Deep Learning, CCS'15](https://dl.acm.org/citation.cfm?id=2813687)
 * [Practical Secure Aggregation for Privacy Preserving Machine Learning, CCS'17](https://eprint.iacr.org/2017/281.pdf)
 * [Privacy-Preserving Deep Learning via Additively Homomorphic Encryption, TIFS'17](https://ieeexplore.ieee.org/document/8241854)
@@ -249,6 +248,7 @@ Libraries that can be used to implement applications using (Fully) Homomorphic E
 # 5 Differential Privacy (DP)
 ## 5.1 DP Papers
 
+- [Clients Collaborate: Flexible Differentially Private Federated Learning with Guaranteed Improvement of Utility-Privacy Trade-off, ICML'2025](https://arxiv.org/abs/2402.07002) [[code](https://github.com/6lyc/FedCEO_Collaborate-with-Each-Other)]
 - [Randomized Response: A Survey Technique for Eliminating Evasive Answer Bias, JASA'65](https://www.jstor.org/stable/2283137?origin=crossref)
 - [Mechanism Design via Differential Privacy, FOCS'07](https://ieeexplore.ieee.org/document/4389483)
 - [How Much Is Enough? Choosing ε for Differential Privacy, ISC'11](http://link.springer.com/10.1007/978-3-642-24861-0_22)
@@ -390,6 +390,7 @@ Libraries that can be used to implement applications using (Fully) Homomorphic E
 
 ## 7.2 Survey
 
+* [Privacy Computing Meets Metaverse: Necessity, Taxonomy and Challenges](https://arxiv.org/abs/2304.11643)
 * [机器学习隐私保护研究综述, 软件学报'20](http://www.jos.org.cn/jos/article/abstract/6052)
 * [安全多方计算及其在机器学习中的应用, 计算机研究与发展'21](https://crad.ict.ac.cn/CN/10.7544/issn1000-1239.2021.20210626)
 
